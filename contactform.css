@@ -1,0 +1,112 @@
+.container8 {
+  background: linear-gradient(
+    10deg,
+    rgb(255, 13, 13),
+    rgb(12, 26, 83),
+    rgb(2, 2, 12),
+    rgb(6, 6, 15)
+  );
+}
+.form-container {
+  padding-top: 50px;
+  text-align: center;
+  width: 500px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.form-container h1 {
+  /* padding: 20px; */
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.form-container p {
+  font-size: 18px;
+  color: #ffff;
+  text-align: left;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-form label {
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 5px;
+  color: white;
+  background: transparent;
+  border: 1px solid #ffff;
+  font-size: 14px;
+}
+
+.signup-form input::placeholder {
+  color: #000;
+}
+
+.signup-form select option {
+  color: #000;
+}
+
+.birth-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.birth-item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.privacy-policy .privacy {
+  color: #fff;
+  font-size: 18px;
+}
+.privacy-policy {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.privacy-policy input {
+  margin-right: 10px;
+}
+
+.privacy-policy a {
+  color: #00aeef;
+  text-decoration: none;
+}
+
+.privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+.signup-form .btn8 {
+  padding: 10px 20px 10px 20px;
+  color: blue;
+  background-color: aqua;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  align-self: center;
+  text-decoration: none;
+}
+
+.btn8:hover {
+  background-color: #000;
+}
